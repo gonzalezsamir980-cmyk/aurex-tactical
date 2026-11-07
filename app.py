@@ -12,8 +12,21 @@ class GroqCloudLLM(LLM):
         return "groq_cloud"
         
     def _call(self, prompt: str, stop: Optional[List[str]] = None, run_manager=None, **kwargs) -> str:
+        # 1. Prioridad: Google Gemini (directo, infalible y sin bloqueos 403)
+        try:
+            import streamlit as st
+            gem_k = str(st.secrets.get("GEMINI_API_KEY", "") or os.environ.get("GEMINI_API_KEY", "")).strip().strip('"').strip("'")
+            if gem_k:
+                from modulo_gemini import _hacer_peticion_gemini
+                payload = {"contents": [{"parts": [{"text": prompt}]}]}
+                res_gem = _hacer_peticion_gemini(payload, gem_k)
+                if res_gem and not res_gem.startswith("HTTP Error") and not res_gem.startswith("Jefe, anomal"):
+                    return res_gem
+        except Exception:
+            pass
+
+        # 2. Satélite Groq Cloud (Llama 3.3 70B / 3.1 8B)
         from modulo_groq import consultar_groq_texto
-        # Buscar API key en secrets o env
         k = self.api_key
         if not k:
             try:
