@@ -110,17 +110,9 @@ def renderizar_artifacts_interactivos(texto: str, element_key_prefix: str = "art
     """
     bloques = extraer_bloques_codigo(texto)
     
-    # 1. Detectar si hay sensores para mostrar sus fichas técnicas
-    texto_l = texto.lower()
-    es_seguridad_o_chat = any(k in texto_l for k in ["contraorden", "ciberdefensa", "firewall", "ip atacante", "incidente", "auditoría", "auditoria", "acceso concedido", "desbloquear"])
-    if not es_seguridad_o_chat:
-        sensores_detectados = buscar_sensores_en_texto(texto, permitir_fallback=False)
-        # Solo mostrar sensores reales del catálogo de mecatrónica (nunca falsos procedimentales en el chat)
-        sensores_reales = [s for s in sensores_detectados if s.get("categoria") != "Hardware y Componentes Tcticos Solicitados" and s.get("categoria") != "Hardware y Componentes Tácticos Solicitados"]
-        if sensores_reales:
-            st.markdown("##### 🔌 Fichas Visuales y Diagramas de Componentes")
-            for s in sensores_reales:
-                renderizar_tarjeta_sensor(s)
+    # 1. Las fichas de sensores NO se muestran automáticamente en el chat para no saturar la pantalla móvil.
+    # Solo se muestran en la Pestaña de Galería o si el usuario pide explícitamente 'ficha técnica' o 'pinout'.
+    pass
 
     # 2. Renderizar bloques de código especiales
     for i, (lang, codigo) in enumerate(bloques):
