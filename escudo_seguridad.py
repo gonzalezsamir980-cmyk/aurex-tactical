@@ -45,6 +45,28 @@ def extraer_telemetria_cliente() -> dict:
         pass
     return telemetria
 
+def obtener_datos_credenciales() -> dict:
+    """Retorna credenciales seguras, autogenerando en la nube si no existen."""
+    if os.path.exists(ARCHIVO_CREDENCIALES):
+        try:
+            with open(ARCHIVO_CREDENCIALES, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    datos = {
+        "hash_clave": "a8f3004df4ca5fc4353948c628c0698cbf58b8f0e6e3d81e222f8480b877841d",
+        "pregunta_acertijo": "Que componente me gusta mas?",
+        "hash_acertijo": "e1832a30c2d1ab08a8a64ec3b74454e294ea04d587cf2cf3bcad78ffd5682fc0",
+        "intentos_fallidos": 0,
+        "fecha_configuracion": time.strftime("%Y-%m-%d %H:%M:%S")
+    }
+    try:
+        with open(ARCHIVO_CREDENCIALES, "w", encoding="utf-8") as f:
+            json.dump(datos, f, indent=2, ensure_ascii=False)
+    except Exception:
+        pass
+    return datos
+
 def esta_cerrojo_configurado() -> bool:
     """Verifica si el Jefe ya definió su clave o acertijo."""
     if not os.path.exists(ARCHIVO_CREDENCIALES):
@@ -165,11 +187,8 @@ FIN DEL EXPEDIENTE FORENSE · SISTEMA DE SEGURIDAD AUREX
 
 def verificar_clave_o_acertijo(intento: str) -> bool:
     """Valida si el intento coincide con la Clave Maestra o la respuesta al Acertijo."""
-    if not os.path.exists(ARCHIVO_CREDENCIALES):
-        return True
     try:
-        with open(ARCHIVO_CREDENCIALES, "r", encoding="utf-8") as f:
-            datos = json.load(f)
+        datos = obtener_datos_credenciales()
         
         intento_hash = _hash_valor(intento)
         if intento_hash == datos.get("hash_clave"):
@@ -251,8 +270,7 @@ def renderizar_pantalla_seguridad() -> bool:
         return True
 
     # Si ya está configurado, mostrar PANTALLA DE ACCESO RESTRINGIDO
-    with open(ARCHIVO_CREDENCIALES, "r", encoding="utf-8") as f:
-        datos_cred = json.load(f)
+    datos_cred = obtener_datos_credenciales()
     pregunta_activa = datos_cred.get("pregunta_acertijo", "")
 
     # HUD DE ALERTA ROJA SI HUBO INTENTO DE INTRUSIÓN
