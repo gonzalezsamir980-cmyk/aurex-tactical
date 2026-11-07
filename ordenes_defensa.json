@@ -1,0 +1,20 @@
+[
+  {
+    "id_orden": "ORD-DE2AA4",
+    "id_nodo": "SRV-BD-CLIENTE-01",
+    "accion": "CONGELAR_BD",
+    "parametros": {},
+    "timestamp": "2026-11-07 10:29:53",
+    "estado": "PENDIENTE_EJECUCION"
+  },
+  {
+    "id_orden": "ORD-4091A3",
+    "id_nodo": "SRV-BD-CLIENTE-01",
+    "accion": "BLOQUEAR_IP",
+    "parametros": {
+      "ip": "185.220.101.5"
+    },
+    "timestamp": "2026-11-07 10:29:53",
+    "estado": "PENDIENTE_EJECUCION"
+  }
+]

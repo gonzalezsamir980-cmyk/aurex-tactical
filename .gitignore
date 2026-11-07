@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos pesados o locales de video
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# Registros y credenciales locales
+registro_seguridad.jsonl
+credenciales_jefe.json
+config_alertas.json
+
+# Chroma local cache (se reconstruye o usa embeddings en memoria)
+chroma_db/

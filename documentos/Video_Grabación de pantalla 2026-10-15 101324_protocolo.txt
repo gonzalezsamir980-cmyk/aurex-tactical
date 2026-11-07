@@ -1,0 +1,222 @@
+REGISTRO DE VIDEO ASIMILADO POR AUREX
+====================================
+Archivo de origen: Grabación de pantalla 2026-10-15 101324.mp4
+Tipo: Clase técnica / Grabación aprendida por AUREX
+
+CRÓNICA VISUAL DE FOTOGRAMAS:
+- **Minuto [00:00]:** En este instante se ven los siguientes componentes y acciones técnicas:
+
+1. Se muestra una presentación con el título "4-5 Ley de Schmid" y se incluye una fórmula matemática que relaciona la tensión \(\tau_r\) con la tensión \(\sigma\), el ángulo \(\lambda\) y la pendiente \(\phi\).
+
+2. Se muestra una ecuación que calcula el ángulo \(\phi\) utilizando la fórmula \(\cos \phi = \frac{\tau_r}{
+- **Minuto [06:06]:** En este instante se ven los siguientes componentes y acciones técnicas:
+
+1. Una página web con un formulario de venta de dulces.
+2. Se puede ver la fecha de venta, el cliente, el tipo de dulce y el precio de venta.
+3. Hay una opción para guardar la venta y calcular el costo de los ingredientes.
+4. Se muestra una ganancia neta de $10.00 y un costo de ingredientes de $0.00.
+5. Se incluye un mensaje de advertencia sobre la ganancia neta y el costo de
+- **Minuto [12:12]:** En la imagen, se muestra una presentación sobre "Defectos superficiales" en un contexto de aprendizaje o conferencia. Se incluyen elementos como un diagrama que muestra la relación entre el número de grano ASTM y el tamaño del grano, así como una fórmula matemática que calcula el número de grano. También se menciona el concepto de "fallas de apilamiento" en metales FCC y su relación con la secuencia de apilamiento de los planos compactos.
+- **Minuto [18:18]:** En el momento actual, se muestra una presentación en español que explica la importancia de los defectos en materiales. Se menciona que el endurecimiento por deformación es un proceso para aumentar la resistencia de un material mediante deformaciones que incrementan la densidad de las dislocaciones. También se menciona que el tratamiento térmico de recocido puede revertir los efectos del endurecimiento por deformación, disminuyendo la densidad de las dislocaciones y aumentando la ductilidad del material.
+
+TRANSCRIPCIÓN COMPLETA CON MARCAS DE TIEMPO:
+[00:00 -> 00:03] ¿Cuál son esos ángulos? ¿Y los ángulos habíamos visto acá?
+[00:03 -> 00:11] Aquí está. Habíamos visto que el ángulo entre los planos de delizamiento y la norma
+[00:11 -> 00:19] de las muestras se llama landa, le da un gruesa mandanda, y entre la normal del plano con
+[00:19 -> 00:27] la normal de las muestras, se llama finos, hay dos ángulos, y la suma de todos ángulos,
+[00:28 -> 00:35] y no perdán momento a lado. Aquí hay una área, que ve Shark extended de ilizamiento, y una
+[00:35 -> 00:41] área durant no excellento el buldo y hay una fuerza�quández para el muestras que se mintió
+[00:41 -> 00:48] otra vez. Y entonces la que ocasiona el esfuerzo resultante está aquí,
+[00:48 -> 00:55] Prab maken, y esta que está aquí, la que va a definir su legal banco de libertas, muy
+[00:55 -> 01:02] la ecuación de Shunitke, la que monta más cada esta, la ecuación de Shunitke.
+[01:02 -> 01:07] En aquel ejemplo de Shunitke, el esfuerzo de probar en 200 kilopascales.
+[01:07 -> 01:14] Bueno, la unidad de la medida de la esfuerzo de Pascal, Pascal en Newton metro cuadrado.
+[01:14 -> 01:22] Entonces, que dice kilopascal, o sea, que es por 10 a la 3, las cuales.
+[01:22 -> 01:28] Supongo si que se tiene ese esfuerzo de ruptura en el ángulo de el 70 a45 y el esfuerzo
+[01:28 -> 01:35] vale de 157 con el calcular el otro ángulo, la empezamos en todas las datos de aquí,
+[01:35 -> 01:40] y no sale que el plano formó en grupo de 65, o sea, el plano que causa la ruptura,
+[01:40 -> 01:43] porque trae fuerza ruptura, ¿sabes?
+[01:43 -> 01:53] Bien, entonces cuando, cuando se, este es un ejemplo donde se establecía, a male el ejemplo,
+[01:53 -> 01:57] un rodillo compuesto de un freestyle puro de aluminio como un esfuerzo cortante de la suerte crítico
+[01:57 -> 02:01] de 120 kilopascales, se desearía entrar en rodillo de tarminera que cuando se aplica
+[02:01 -> 02:07] un esfuerzo de radial de 307 kilopascales, rodillo de ese deforme, cuando se meto con esto,
+[02:07 -> 02:15] lo que se usa para hacer las láminas, las planchas, esas metálicas, porque se usa el rodillo
+[02:15 -> 02:27] de rodillo de material duro y se jala, se mete un, al rodillo se mete una lámina cuadrada
+[02:27 -> 02:31] o circula, entonces cuando lo va pasando por ahí, la verba aplastando y lo va formando
+[02:31 -> 02:38] en forma de lámina, ahí para hacer eso hay que romper este esfuerzo crítico, ¿no?
+[02:38 -> 02:43] Y se tiene que hablar con una fuerza que sería estar acá, o sea, eso sucede cuando el ángulo
+[02:43 -> 02:50] que usted le aplica rodillo de 45 o lado y el otro ángulo que ya mostrado es mi bueno,
+[02:50 -> 02:59] es normal, que este que esté aquí 65, bueno este es un ejemplo, después en la clase
+[02:59 -> 03:04] de la semana que viene, vamos a ver los presenciales y vamos a ver con un grito de hiaycalplora,
+[03:04 -> 03:14] bueno aquí hay una tabla de esfuerzos cortantes de distintas estructuras, por ejemplo, si la estructura
+[03:14 -> 03:22] es FSS significa FICE-CENTRICUTE, es cubiero central en las caras, o sea, vamos a vermos
+[03:22 -> 03:38] FICE-C-C-C-C-C-C-C-C-C-C y ese es el PLA, esa es una compacta con algunos átomos,
+[03:38 -> 03:47] en las dos aritades de la estructura que haremos ya abajo, cuando la distancia de la altura
+[03:47 -> 04:00] de la distancia, cuando se entrehacé en la altura y el paramento en la cara basal, cuando
+[04:00 -> 04:09] es mayor que 1,6, 3, 3, 3, eso es cuando una está una completa normal, no sale que de
+[04:09 -> 04:18] este estructura vale 35,690 kilopascales de esfuerzo cortante, este vale 35,000, hace 61,000
+[04:18 -> 04:26] kilopascales de 35, esta es muy similar, esta es un casi igual, pero esta es la más
+[04:26 -> 04:33] dura, en el que la más dura, el humor sistema de deslizamiento es 12, esta es el decor, por
+[04:33 -> 04:40] eso es que esta que está aquí se deforma como el esfuerzo, tiene 48 sistemas de deslizamiento,
+[04:40 -> 04:50] esta no más tiene 3, ahí veo, el esfuerzo cortante puede ocurrir, ocurrir y no puede ocurrir,
+[04:50 -> 04:54] entonces este es un material ductil, un material duro, muy duro y este es un material
+[04:54 -> 05:03] extremamente blanco, bueno, infensa de la estructura que esta línea, bueno, eso fue lo que
+[05:03 -> 05:16] había más su momento, que la estructura que esta línea que más se deforma es la veces sea,
+[05:16 -> 05:20] que dice que el comportamiento de un uno que está de casi perfecto, así margó no todo
+[05:20 -> 05:24] lo material, eso es un uno que está, sino que tienen, son por el cristalino, porque los
+[05:24 -> 05:29] cristales están orientados en distintos, en distintos direcciones, entonces el esfuerzo
+[05:29 -> 05:40] cortante o el esfuerzo necesariamente es el que da la teoría, en un metal FCC que tiene
+[05:40 -> 05:45] mucho más plano compacto, por lo que suese ser reservado, tiene más plano compacto el FCC
+[05:45 -> 05:55] porque tiene átomos en las cara del Q, tiene más planos que vimos en laboratorio, bueno
+[05:55 -> 05:59] en cuanto a la HSP, como decía, hay dos formas, las que tienen ese sobree altura,
+[05:59 -> 06:09] sobre la para mi plano azal, cuando es menor, el esfuerzo cortante crítico es comparable
+[06:09 -> 06:19] con la FCC, cuando es mayor, comparable con el FCC, cuándo es que la FCC es la más ductil,
+[06:19 -> 06:23] en cuanto a la cantidad de sistema de realizamiento, la HSP tiene poco sistemas de realizamiento,
+[06:23 -> 06:28] el FCC tiene dos sistemas de realizamiento y la HSP tiene 48, la HSP la más de forma
+[06:28 -> 06:45] de las puestas tienes mucho mano, rano de realizamiento, bien, me están viendo chicos, estoy
+[06:45 -> 06:51] compartiendo la pantalla, no es que no me veo acá, sí, pero si te me admitiré un poco
+[06:51 -> 07:44] gente que no lo puse aquí a ver, bien, dice que manzar de espera, sigamos, entonces
+[07:44 -> 07:48] estos son la cantidad de sistema de realizamiento que depende del plano más compacto que a
+[07:48 -> 07:53] falsen que hay estructura, recuerden que la compacticidad del plano depende del número de actos
+[07:53 -> 08:01] mentelarios, entonces ya hay una sección del cristal que tiene más actos, es un plano compacto
+[08:01 -> 08:07] y eso lo vimos ya en cuando te mostrime el paracelar, bueno, también ocurre un interés
+[08:07 -> 08:13] de realizamiento acusado, que hay un plano que cuando van llegando al otro se chucan contra
+[08:13 -> 08:27] el plano y cambia la orientación de la dirección de esto era aquí, eso se llama el
+[08:27 -> 08:43] desenvolvimiento acusado, bueno, también hay otro tipo de defectos material recuerden que a
+[08:43 -> 08:47] inicialmente ya le habíamos empezado a hablar sobre efectos puntuales, efectos puntuales,
+[08:47 -> 08:55] que me han funcionado el intercicial, el de la vacancia, el sustitucional, el sustitucional de
+[08:55 -> 09:02] menor tamaño, de mayor tamaño, etcétera, también un defecto franca y el defecto choque, bueno,
+[09:02 -> 09:10] la misma defecto puede ser superficial, es decir, no solo a punto sino en una región del cristal,
+[09:10 -> 09:16] entonces eso llama efectos superficiales, yo ocurre en los límites de granos de los materiales,
+[09:16 -> 09:23] por qué? porque los materiales van creciendo distintas direcciones, entonces como otro material
+[09:23 -> 09:30] que tengo que decir es un formo en una región de soja, que nos ha tomado un efecto superficial,
+[09:30 -> 09:37] entonces el tamaño de granos tiene que ver con ese defecto superficial, vamos a saber,
+[09:37 -> 09:50] lo límite de granos son sumas de alta de ese organe de soja, entonces a veces es bueno que el
+[09:50 -> 09:55] reducir el tamaño de granos aumenta la resistencia de material, es decir que en granos más pequeñitos
+[09:55 -> 10:02] tenga el material, se puede romper más difícilmente, y las ilocaciones son en la distancia corta
+[10:02 -> 10:11] antes de parar, por eso es que los materiales con la mayora grande, la pequeña, la de donde
+[10:11 -> 10:18] en pequeño se reducen el tamaño de la resistencia aumenta la resistencia, al revés, es a un
+[10:18 -> 10:22] contrario, a la resistencia de material, existe en la ecuación que sea una ecuación de
+[10:22 -> 10:33] Hal Speck, bueno aquí, no la veo, la ecuación de Hal Speck establece que el esfuerzo en una
+[10:33 -> 10:41] dirección es igual a un esfuerzo inicial más una constante dividida por la raíz de el tamaño gran,
+[10:41 -> 10:47] ahora como se mide ese tamaño gran, vamos a ver, aquí está lo que les comentaba, este gran
+[10:47 -> 10:52] o viene para cáltera, no viene para cáltera, se crea una zona de instabilidad y de de solo del
+[10:52 -> 10:56] aquí, y esto hace que el material puede hacer más resistencia en la resistencia, por el resultado
+[10:56 -> 11:02] de que el tamaño de este grano, este tamaño, el tamaño granú te lo dará en el mí de la
+[11:02 -> 11:07] dedicción más larga, y de exón más corta y lo promedía, promedía, y hace promedía todo eso,
+[11:07 -> 11:14] que se hace eso bien y gráfica el esfuerzo de de cerencia, de material en función,
+[11:14 -> 11:19] el tamaño granú se ha dado una recta con la raíz de menor, menos un medio, ya la menor un medio,
+[11:19 -> 11:25] es decir, a mayor grano digamos menos, mayor grano significa, yo creo que como tan
+[11:25 -> 11:35] dominador está mayor grano y menor gran está pronto, otra forma de especificar,
+[11:35 -> 11:38] la mayor grano de un, de un, de un, de un, de un, que no tendría hacer una norma a este
+[11:38 -> 11:47] m que es una norma norteamericana, que establece que n es igual a 2, n a la, a la menor,
+[11:47 -> 11:55] dos elevador a N-1 y da en un gran por lugar a cuadrada en donde N que está y es el
+[11:55 -> 12:05] el número de grano no es el tamaño grano lo límite de ángulo pecado bueno también
+[12:05 -> 12:09] existe límites de ángulo grande límite de ángulo pequeño límite de ángulo pequeño
+[12:09 -> 12:14] límite cuando el borde de grano es muy estrecho y de ángulo grande con las más más más
+[12:14 -> 12:21] más ángulo ese bien existe otro otro defecto se llama las fases de apilamiento en donde
+[12:22 -> 12:28] recuerden que hemos dicho que habíamos dicho que hay materiales que tienen
+[12:29 -> 12:33] ciertas cantidad de átomos en planos y en el otro planos también lleva la misma y
+[12:33 -> 12:42] lleva la misma todo se repite pero a veces hay fases de apilamiento por ejemplo en la estructura
+[12:42 -> 12:54] en la estructura fsc se tienen 5 límites se tiene una capa digamos a después tiene una a
+[12:54 -> 12:59] después tiene una a después tiene una a después tiene una a después tiene una a después de una
+[12:59 -> 13:05] a después una a una a una a a a a a a veces no sigue el mismo el mismo ordenamiento que llevaba
+[13:05 -> 13:12] pues se llama fases de apilamiento bueno a todos nos van se van apilando de forma continuo pero a
+[13:12 -> 13:18] veces de esos fallas bueno este es lo que le comentaba sobre el límite de borde de grano el ángulo
+[13:18 -> 13:24] desde grano y un ángulo que viene para acá y acá viene todo grano que viene para acá entonces este ángulo
+[13:24 -> 13:31] que está aquí se llama ángulo de borde de grano ángulo bajo ángulo alto se le espera que este ángulo
+[13:31 -> 13:36] es pequeño o es grande y eso tiene que ver con las estructuras y con las propiedades mecánicas de
+[13:36 -> 13:45] materia aquí está un bueno otro otra fue otro defecto superficial se se le conoce como maca la
+[13:45 -> 13:52] qué es una maca la es así fíjense usted tiene esta ilusión de de átomos en el material pero cuando
+[13:52 -> 14:01] usted le aplica una cierta temperatura inesperadamente entonces ocurre que una sección del del
+[14:02 -> 14:10] plano se se se se desvía de la de la orientación y queda y queda con la estructura fíjense que
+[14:10 -> 14:17] esta que está aquí esta esta esta esta esta que esta que esta o sea sigue la misma orientación para
+[14:17 -> 14:23] acá por una hay una área y no de ser sorte no por cambio de temperatura pero no es lo que más se hace
+[14:23 -> 14:30] si usted caliente un material nada alta de temperatura ahí en materia tiene una estructura pero si usted
+[14:30 -> 14:37] lo enfría de pronto fax él debería quedar con esa con esa estructura que tiene la temperatura lo
+[14:37 -> 14:44] que sucede es que algún material cambia su suelta porque se queda como congelada la estructura anterior pero
+[14:44 -> 14:51] ahí hay hay regiones donde el material sí cambió entonces ahí eso son los que se acolunce como
+[14:51 -> 14:59] maca y ocurre en un borde de grano otro defecto superficial son los materiales magnéticos lectorinos
+[14:59 -> 15:06] con tiene unas pequeñas llamadas dominios en los cuales la manifestación y la misma esto es
+[15:06 -> 15:13] cuando usted le agrega los materiales dopantes dopantes para mejorar su propiedad de magnética o o
+[15:13 -> 15:19] por ejemplo en el caso de los materiales electrónicos pero lo que son transctores y eso y los dios y
+[15:19 -> 15:24] esas cosas que tienen varios varios y puede mantener al bolterario dopantes para cambiar sus propiedad
+[15:24 -> 15:34] de magnéticas y eso sería un defecto sobre esa puerta también tiene todo el panteada y la energía
+[15:34 -> 15:44] de algún material esto es una tabla de comparación sobre los distintos defectos que hay en un material y
+[15:44 -> 15:52] cómo y cómo es la energía que causa la la imperfectión esa tenemos el aluminio cobrero platino hierro entonces el
+[15:52 -> 16:00] que menos en la energía tiene es el hierro cuando esto es defecto el hierro es más duro que lo demás el
+[16:00 -> 16:06] hierro mucho más duro que el platino etcétera y importancia del defecto los defectos de desempeñón no
+[16:06 -> 16:14] funcionan que en el pao al infierno en la fea no materiales realmente metálicos porque porque cambian
+[16:14 -> 16:26] cambian los los la fea de apilamiento y eso cambia la gruesa y ahí no va en aquí admitir todos
+[16:28 -> 17:22] bien digamos me perdí donde era donde era bueno creo que aquí alguien entró ahorita
+[17:22 -> 17:38] bueno así como partir aquí en la ventana aquí bueno sigamos estamos en importancia de los defectos
+[17:38 -> 17:42] bien los defectos infímenos los propiedades de los cerámicos lo cual es tan detectado por su
+[17:42 -> 17:49] porosidad por irme a lo cual es un amor, o sea que los materiales cerámicos no tienen si tiene
+[17:49 -> 17:54] mucho defecto pero no son no se lo han afectado mucho o sea no han afectado mucho a las
+[17:54 -> 17:59] propiedades de material porque porque tienen muchos defectos y los por ímbigros pues no tienen
+[17:59 -> 18:03] estructura que está en lina así que eso es un cópital del amor si que ahí no importa si hay defecto no hay
+[18:03 -> 18:10] defecto bueno en cuanto al enturecimiento por deformación se refiere que cuando mientras más de
+[18:10 -> 18:18] forma es un material las dislojaciones se deslizan de una forma se rompen algunos algunos planos y eso
+[18:18 -> 18:26] digamos que aumenta la licencia del material y aumenta laencia de la locación y eso hace que
+[18:26 -> 18:32] el material se endurezca por deformación bien en cuanto a un data minuto termino y con el
+[18:32 -> 18:36] amar escocido se puede ver que el efecto de enresilmente para la deformación es decir yo
+[18:36 -> 18:40] endureclo en material estirándolo y si quiero volver a la material como estaba ante lo
+[18:40 -> 18:44] metado un horno y ahí desaparecen los planos vuelven a estar como estaba antes y de esa pese a
+[18:44 -> 18:53] las locaciones eso es lo que está diciendo ahí saludo en crecimiento por solución sólida se refiere
+[18:53 -> 19:01] que cuando tú tienes un material y lo que eres endurecer tú les suele la temperatura para que el
+[19:01 -> 19:06] material se termine de acomodar se termina los átomos se termina a inmigrantes a las vacancias o a
+[19:06 -> 19:13] solo interrupiciales y eso se llama solución sólida donde cada toma ocupas su lugar específica el
+[19:13 -> 19:18] enresimiento por tamaño de los granos puede ocurre con la raíz cuadra de de a la a la a la a la a la
+[19:19 -> 19:23] una media serie bueno hace que hay más grandes el granos la raíz va a dar más grande de
+[19:23 -> 19:33] terciena de 11 menos mientras más pequeños el granos la baoda más grande se endurece más y los
+[19:33 -> 19:41] defectos puntuales tienen alta efectos sobre las propiedades eléctricas ópticas y magicas de los
+[19:41 -> 19:46] materiales como la comentábamos los de pan lo dópandes son importantes en los entecontuitores
+[19:46 -> 19:52] porque gracias a ellos que ocurren eso de la banda de de de conducción y de
+[19:52 -> 19:57] la conducción, la banda de valencia, esas cosas que hace que mi tamaño es la banda
+[19:57 -> 20:00] digamos se me conduce menos, mi tamaño es más pequeño, conduce más externo.
+[20:00 -> 20:06] También tiene efectos sobre eso, sobre las delocaciones y
+[20:06 -> 20:11] realmente prejudiciales, efectos afectando negativamente a las propiedades del
+[20:11 -> 20:19] material. El caso de los dos pantetrolamos. Eso dentro de esos materiales
+[20:19 -> 20:23] la sufre, la sufre es un material que viene que viene en casi todos los materiales,
+[20:23 -> 20:28] porque la sufre está en la mina donde se acabra, se acalía a lo o el aluminio o
+[20:28 -> 20:31] cualquier otro material cobre, esa sufre viene de la misma tienda, la parra de
+[20:31 -> 20:35] zapá volcán y entonces eso, sacar eso de un materiales casi imposible.
+[20:35 -> 20:40] Entonces los materiales van con ese, con ese dopante que sería sufre y eso
+[20:40 -> 20:50] digamos tiene muchas propiedades negativas del material. Sin embargo, el
+[20:50 -> 20:53] habitamiento de pequeñas criatías de datos moriónaleantes en los materiales
+[20:53 -> 20:56] pueden producir cambios drásticos en las colores de las materiales de ejemplo en
+[20:56 -> 20:59] los videos, si tú quieres un video de un color abumado o efectivo, tú le metes
+[20:59 -> 21:03] para un problemo o repetir otra cosa, si le metes el plomo un video, tiene un video
+[21:03 -> 21:09] blindado, porque ese material en duresa es casi el infinito, entonces la
+[21:09 -> 21:14] bala cuando es fuerte que la hija no lo quiera rompe, entonces agregar pequeñas
+[21:14 -> 21:20] cantidad de datos en plomo al mismo, pero se dan grandes diferencias de las
+[21:20 -> 21:27] propiedades. Bueno, este es un asum, hay un tipo de efectos puntuales y niñas
+[21:27 -> 21:31] ni superficielles, y en una alcance de materiales de la temperatura puede ser
+[21:31 -> 21:39] interficiar su situación más tomoso, agado de diversamente, y simplemente se
+[21:39 -> 21:43] está iniciado por la temperatura y los cambios de temperatura. Bueno, las de las
+[21:43 -> 21:47] ocasiones son de efectos lineales, que tan mayor o menor de turesa
+[21:47 -> 21:52] material, fue un refuerzo crítico de los materiales, que es la misión de
+[21:52 -> 22:01] ficación de plena sistema de planos, dirección compacta, y bueno, en los materiales
+[22:01 -> 22:10] metálicos tienen un número exacto de planos de sistema de deslizamiento, el
+[22:10 -> 22:16] FSS, por ejemplo, tienen un refuerzo crítico, digamos, menor que el PCC, el PCC, el que más se
+[22:16 -> 22:21] deforma y el PC parece mucho a la FSS. Hay efectos puntuales, efectos montales,
+[22:21 -> 22:29] influyen en esfuerzos de compresión, cuando el atmosis usan a un pequeño, o de esfuerzos
+[22:29 -> 22:35] de la tarila de atrasión, cuando el atmosis le influyen, que producen a reales de mayor
+[22:35 -> 22:39] tamaño. En efecto, es superficial como lo que guardan llegando, pues, influyen la
+[22:39 -> 22:43] turesa, porque está con la ecuación, esa que le mostré en donde la de tan
+[22:43 -> 22:51] determinador a mayor de, menor de esfuerzo y a menor de mayor de esfuerzo. Y el número
+[22:51 -> 22:57] de y tipo de efectos pulpados puede depender de, directamente, el material. Me
+[22:57 -> 23:01] ordines yo, pero el peor de mi calicón material depende específicamente de el número y
+[23:01 -> 23:11] tipo de efectos que tienen cada material. Y también las propiedades eléctricas ópticas
+[23:11 -> 23:17] de peor material dependen específicamente de algunos materiales que son dopantes, los
+[23:17 -> 23:27] dopantes son los que le afectan esa propiedad. Bueno, chico, vamos a dejarlo allí entonces, en
+[23:27 -> 23:34] la próxima clase, ver qué hora es, qué bien. En la próxima clase ya he pedo ya, ya terminamos,
+[23:34 -> 23:39] ya. Bueno, en la próxima clase de venta en la próxima clase de
+[23:39 -> 23:44] venta. Vamos a resolver algunos ejemplos del capítulo cuatro, algunos emplos son preguntas
+[23:44 -> 23:50] teóricas, otras son preguntas ya con cálculo, un medio con un tamaño grande, esas cosas, esfuerzo
+[23:50 -> 23:55] de formación, esas cosas, sí. Porque a veces me ecuasione, que vamos a discutir ahí,
+[23:55 -> 23:59] este va a ser día miércoles. El día hueve, entonces, veo entonces el siguiente capítulo que
+[23:59 -> 24:04] en el capítulo cinco, y porque se nos está acabando el tiempo, yo pensaba antes de la fiesta
+[24:04 -> 24:10] para hacer el segundo parcia. Espero tenerle ya, pero me parece al corregido que no hay ni
+[24:10 -> 24:15] ni siquiera he visto, pues estas con el país, así que vamos a ver si aquí haya, se los devuelvo
+[24:15 -> 24:24] el día miércoles. Los del grupo, el día miércoles no me entra en el informe todavía porque

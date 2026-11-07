@@ -1,0 +1,22 @@
+{
+  "SRV-BD-CLIENTE-01": {
+    "id": "SRV-BD-CLIENTE-01",
+    "nombre": "Base de Datos ERP - Empresa Cliente Alfa",
+    "tipo": "Base de Datos (MySQL / Postgres)",
+    "ip_local": "192.168.1.150",
+    "estado": "SEGURO",
+    "ultimo_latido": "2026-11-07 10:08:42",
+    "amenaza_actual": null,
+    "token_seguridad": "6eda01a28a366167"
+  },
+  "WS-CONTABILIDAD-02": {
+    "id": "WS-CONTABILIDAD-02",
+    "nombre": "Terminal Contabilidad - Cliente Beta",
+    "tipo": "Estación Windows",
+    "ip_local": "192.168.1.180",
+    "estado": "SEGURO",
+    "ultimo_latido": "2026-11-07 10:08:42",
+    "amenaza_actual": null,
+    "token_seguridad": "245fdf011709028a"
+  }
+}

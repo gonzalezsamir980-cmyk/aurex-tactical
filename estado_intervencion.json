@@ -1,0 +1,43 @@
+{
+  "id_sesion": "INT-1794064988",
+  "timestamp_inicio": "2026-11-07 10:23:05",
+  "ip_laptop_aurex": "192.168.50.234",
+  "subred_detectada": "192.168.50.0/24",
+  "modo_fantasma": {
+    "estado": "ACTIVO",
+    "invisibilidad_arp": true,
+    "puertos_entrantes_cerrados": true,
+    "aislamiento_aurex": "100% BLINDADO"
+  },
+  "guardian_autonomo": "VIGILANDO_EN_VIVO",
+  "dispositivos_encontrados": [
+    {
+      "ip": "192.168.50.1",
+      "estado": "ACTIVO",
+      "servicios": [
+        {
+          "puerto": 80,
+          "servicio": "HTTP Web Server",
+          "categoria": "Servicio Web"
+        },
+        {
+          "puerto": 443,
+          "servicio": "HTTPS Web Seguro",
+          "categoria": "Servicio Web"
+        }
+      ]
+    }
+  ],
+  "total_bases_datos_protegidas": 0,
+  "amenazas_neutralizadas": [
+    {
+      "id": "NEUT-1794065393",
+      "ts": "2026-11-07 10:29:53",
+      "ip_atacante": "185.220.101.5",
+      "vector": "SQL_INJECTION_DEFENSA_REMOTA",
+      "detalle": "Orden táctica inalámbrica emitida por el Jefe Samir",
+      "accion_autonoma": "TCP_RESET_INJECTED + IP_FIREWALL_BLOCKED",
+      "resultado": "AMENAZA_NEUTRALIZADA_0.3S"
+    }
+  ]
+}
