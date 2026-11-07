@@ -17,10 +17,9 @@ class GroqCloudLLM(LLM):
             import streamlit as st
             gem_k = str(st.secrets.get("GEMINI_API_KEY", "") or os.environ.get("GEMINI_API_KEY", "")).strip().strip('"').strip("'")
             if gem_k:
-                from modulo_gemini import _hacer_peticion_gemini
-                payload = {"contents": [{"parts": [{"text": prompt}]}]}
-                res_gem = _hacer_peticion_gemini(payload, gem_k)
-                if res_gem and not res_gem.startswith("HTTP Error") and not res_gem.startswith("Jefe, anomal"):
+                from modulo_gemini import consultar_gemini_texto
+                res_gem = consultar_gemini_texto(prompt, gem_k)
+                if res_gem:
                     return res_gem
         except Exception:
             pass
