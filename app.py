@@ -1,3 +1,28 @@
+
+# ── ADAPTADOR DE INTELIGENCIA NUBE (GROQ / GEMINI PARA STREAMLIT CLOUD) ──
+from langchain_core.language_models.llms import LLM
+from typing import Optional, List
+
+class GroqCloudLLM(LLM):
+    api_key: str = ""
+    model_name: str = "llama-3.3-70b-versatile"
+    
+    @property
+    def _llm_type(self) -> str:
+        return "groq_cloud"
+        
+    def _call(self, prompt: str, stop: Optional[List[str]] = None, run_manager=None, **kwargs) -> str:
+        from modulo_groq import consultar_groq_texto
+        # Buscar API key en secrets o env
+        k = self.api_key
+        if not k:
+            try:
+                import streamlit as st
+                k = st.secrets.get("GROQ_API_KEY", "") or os.environ.get("GROQ_API_KEY", "")
+            except Exception:
+                pass
+        return consultar_groq_texto(prompt, k, self.model_name)
+
 import streamlit as st
 import os
 import json
@@ -316,12 +341,22 @@ def cargar_documento(ruta: str):
         st.error(f"Error al decodificar protocolo en {ruta}: {e}")
     return []
 
+class MockEmbeddings:
+    def embed_documents(self, texts): return [[0.0]*64 for _ in texts]
+    def embed_query(self, text): return [0.0]*64
+
 def obtener_vectorstore():
-    embeddings = OllamaEmbeddings(model=EMBED_MODEL)
-    return Chroma(
-        persist_directory=CHROMA_DIR,
-        embedding_function=embeddings
-    )
+    try:
+        # Intentar conectar con Ollama local
+        import urllib.request
+        with urllib.request.urlopen("http://127.0.0.1:11434/api/tags", timeout=0.5) as r:
+            if r.status == 200:
+                embeddings = OllamaEmbeddings(model=EMBED_MODEL)
+                return Chroma(persist_directory=CHROMA_DIR, embedding_function=embeddings)
+    except Exception:
+        pass
+    # Fallback para Streamlit Cloud
+    return Chroma(persist_directory=CHROMA_DIR, embedding_function=MockEmbeddings())
 
 def incorporar_conocimiento(archivos_subidos):
     registro = cargar_registro()
@@ -387,15 +422,36 @@ def configurar_red_neuronal(vectorstore, modelo_llm=LLM_MODEL, personalidad=None
     es_deepseek = "deepseek" in modelo_llm.lower()
     es_coder = "coder" in modelo_llm.lower()
     temp = 0.3 if es_deepseek else (0.1 if es_coder else 0.2)
-    llm = OllamaLLM(
-        model=modelo_llm,
-        temperature=temp,
-        num_predict=4096 if (es_deepseek or es_coder) else 3500,
-        num_ctx=4096,  # 4096 optimizado para RTX 3050 (6GB VRAM)
-        num_thread=6,
-        repeat_penalty=1.15 if es_deepseek else 1.05,   # Evita bucles de repetición
-        repeat_last_n=128,                               # Ventana de detección de repetición
-    )
+    # Detección inteligente de entorno: Local (Ollama) vs Nube (Groq)
+    groq_key = ""
+    try:
+        groq_key = st.secrets.get("GROQ_API_KEY", "") or os.environ.get("GROQ_API_KEY", "")
+    except Exception:
+        pass
+
+    usar_nube = bool(groq_key)
+    if not usar_nube:
+        try:
+            import urllib.request
+            req_ol = urllib.request.Request("http://127.0.0.1:11434/api/tags")
+            with urllib.request.urlopen(req_ol, timeout=0.6) as r_ol:
+                if r_ol.status != 200:
+                    usar_nube = True
+        except Exception:
+            usar_nube = True
+
+    if usar_nube and groq_key:
+        llm = GroqCloudLLM(api_key=groq_key, model_name="llama-3.3-70b-versatile")
+    else:
+        llm = OllamaLLM(
+            model=modelo_llm,
+            temperature=temp,
+            num_predict=4096 if (es_deepseek or es_coder) else 3500,
+            num_ctx=4096,  # 4096 optimizado para RTX 3050 (6GB VRAM)
+            num_thread=6,
+            repeat_penalty=1.15 if es_deepseek else 1.05,
+            repeat_last_n=128,
+        )
     retriever = vectorstore.as_retriever(
         search_type="similarity",
         search_kwargs={"k": 5}
