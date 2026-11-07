@@ -858,8 +858,9 @@ try:
     import sounddevice as sd
     import numpy as np
     WHISPER_DISPONIBLE = True
-except ImportError:
-    pass
+except Exception:
+    sd = None
+    WHISPER_DISPONIBLE = False
 
 @st.cache_resource(show_spinner=False)
 @st.cache_resource(show_spinner=False)
