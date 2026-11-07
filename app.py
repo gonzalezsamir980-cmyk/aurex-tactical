@@ -435,14 +435,16 @@ def configurar_red_neuronal(vectorstore, modelo_llm=LLM_MODEL, personalidad=None
     es_deepseek = "deepseek" in modelo_llm.lower()
     es_coder = "coder" in modelo_llm.lower()
     temp = 0.3 if es_deepseek else (0.1 if es_coder else 0.2)
-    # Detección inteligente de entorno: Local (Ollama) vs Nube (Groq)
+    # Detección inteligente de entorno: Local (Ollama) vs Nube (Gemini / Groq)
     groq_key = ""
+    gemini_key = ""
     try:
-        groq_key = st.secrets.get("GROQ_API_KEY", "") or os.environ.get("GROQ_API_KEY", "")
+        groq_key = str(st.secrets.get("GROQ_API_KEY", "") or os.environ.get("GROQ_API_KEY", "")).strip().strip('"').strip("'")
+        gemini_key = str(st.secrets.get("GEMINI_API_KEY", "") or os.environ.get("GEMINI_API_KEY", "")).strip().strip('"').strip("'")
     except Exception:
         pass
 
-    usar_nube = bool(groq_key)
+    usar_nube = bool(groq_key or gemini_key)
     if not usar_nube:
         try:
             import urllib.request
@@ -453,8 +455,15 @@ def configurar_red_neuronal(vectorstore, modelo_llm=LLM_MODEL, personalidad=None
         except Exception:
             usar_nube = True
 
-    if usar_nube and groq_key:
-        llm = GroqCloudLLM(api_key=groq_key, model_name="llama-3.3-70b-versatile")
+    if usar_nube and (gemini_key or groq_key):
+        llm = GroqCloudLLM(api_key=groq_key or gemini_key, model_name="llama-3.3-70b-versatile")
+    elif usar_nube:
+        class AlertaSinClaveLLM(LLM):
+            @property
+            def _llm_type(self) -> str: return "alerta_sin_clave"
+            def _call(self, prompt, **kwargs):
+                return "Jefe, para habilitar la respuesta satelital en la nube agregue GEMINI_API_KEY en los Secrets de Streamlit."
+        llm = AlertaSinClaveLLM()
     else:
         llm = OllamaLLM(
             model=modelo_llm,
